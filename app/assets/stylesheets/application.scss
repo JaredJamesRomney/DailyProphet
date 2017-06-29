@@ -52,7 +52,7 @@ h6, .h6 {
   position: relative;
   padding: 1rem;
   font-weight: 500;
-  color: #cdddeb;
+  color: black;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -116,8 +116,8 @@ h6, .h6 {
 }
 .sidebar-module-inset {
   padding: 1rem;
-  background-color: #f5f5f5;
   border-radius: .25rem;
+  border-left: 1px solid black;
 }
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
@@ -144,7 +144,9 @@ h6, .h6 {
 }
 .blog-post-title {
   margin-bottom: .25rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  text-align: center;
+  margin-right: 35px;
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
@@ -160,9 +162,36 @@ h6, .h6 {
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
+    border-top: 1px solid black;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+/*
+ * Custom
+ */
+
+.background {
+ position: fixed;
+ top: 50%; left: 50%;
+ z-index: -100;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ transform: translate(-50%, -50%);
+ background: image-url('background.jpeg') no-repeat;
+ background-size: cover;
+}
+
+.border {
+	  border: 2.5px solid black;
+	  margin: 50px 100px;
+}
+
+.video {
+ width: 600px;
+ height: auto;
+ z-index: 3;
 }
