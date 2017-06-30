@@ -1,5 +1,4 @@
 @import "bootstrap";
-
 /*
  * Globals
  */
@@ -147,6 +146,7 @@ h6, .h6 {
   font-size: 3rem;
   text-align: center;
   margin-right: 35px;
+  margin-top: 20px;
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
@@ -194,4 +194,15 @@ h6, .h6 {
  width: 600px;
  height: auto;
  z-index: 3;
+}
+
+@font-face {
+  font-family: 'Icomoon';
+  src:url('icomoon.eot');
+  src:url('icomoon.eot?#iefix') format('embedded-opentype'),
+    url('icomoon.svg#icomoon') format('svg'),
+    url('icomoon.woff') format('woff'),
+    url('icomoon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }

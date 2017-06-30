@@ -50,6 +50,8 @@ GEM
     arel (7.1.4)
     autoprefixer-rails (7.1.1.2)
       execjs
+    badginator (0.0.5)
+      rails (>= 4.0.0)
     bindex (0.5.0)
     builder (3.2.3)
     byebug (9.0.6)
@@ -166,6 +168,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  badginator (~> 0.0.5)
   bootstrap!
   byebug
   coffee-rails (~> 4.2)
